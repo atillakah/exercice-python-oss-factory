@@ -16,7 +16,7 @@ def checkSum():
 		if res == 2:
 			p+=1
 		i+=1
-	print(p*q)
+	print("checksum value is",p*q)
 
 # Function that count number of charactere in given string and can return 3 differents results
 def countOccurences(lst):
