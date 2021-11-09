@@ -23,7 +23,7 @@ def boxesCheck():
 		while y < len(lst):
 			count = diffLetters(lst[i],lst[y]) 
 			if count == 1:
-				print("boxes that contain the robot's part are box nb",i+1,"and",y+1,)
+				print("according there is no box nb 0, the boxes that contain the robot's part are box nb",i+1,"and",y+1,)
 				res = commonLetters(lst[i],lst[y])
 				print("common letter between the two boxes are :",res)
 				break
